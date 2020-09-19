@@ -2,10 +2,10 @@ import praw
 import time
 import pickle
 
-reddit = praw.Reddit(client_id="ezKvopEp5BEwJw", 
-client_secret="c-MsoJWEP3m12OGk9DVpiHXnPwo", 
+reddit = praw.Reddit(client_id="ID", 
+client_secret="secret", 
 username="desktopworm85bot", 
-password="3FJ7+Jjt:eD8fj&", 
+password="pass", 
 user_agent="Simple bot by /u/desktopworm85")
 
 with open("replied.dat", "rb") as fp:
